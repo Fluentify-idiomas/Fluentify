@@ -1,0 +1,103 @@
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Inter", sans-serif; !important
+  font-optical-sizing: auto; !important
+  font-style: normal; 
+  color: white;
+}
+
+a {
+	text-decoration: none;
+}
+h2 {
+	font-size: 96px;
+	font-weight: 800;
+}
+
+.header-page {
+	width: 100%;
+	height: 95px;
+
+}
+
+
+.nav-header {
+	background-color: #10002B;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 40px 10px 40px;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+}
+.link-nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-text {
+	font-size: 40px;
+	font-weight: 800;
+}
+.link-nav {
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 96px;
+}
+.btn-aprender {
+	background-color: #9D4EDD;
+	border-radius: 15px;
+	text-transform: uppercase;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 171px;
+	height: 46px;
+}
+.btn-aprender-title {
+	background-color: #9D4EDD;
+	border-radius: 15px;
+	text-transform: uppercase;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 358.15px;
+	height: 76.29px;
+
+	font-size: 40px;
+	font-weight: bold;
+
+	text-align: center;
+}
+
+
+.home-page {
+	background: rgb(16,0,43);
+	background: linear-gradient(180deg, rgba(16,0,43,1) 0%, rgba(90,24,154,1) 100%);
+	height: 630px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.title-first-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.subtitle {
+	font-size: 24px;
+}
+
+.section-mountains {
+	width: 100%;
+}
+.section-mountains img {
+	width: 100%;
+}
