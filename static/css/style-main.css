@@ -43,7 +43,7 @@ h4 {
 	height: 95px;
 
 }
-.nav-header, .nav-footer {
+.nav-header {
 	background-color: #10002B;
 	display: flex;
 	justify-content: space-between;
@@ -58,7 +58,7 @@ h4 {
 	justify-content: space-between;
 	align-items: center;
 }
-.logo-text {
+.logo-text, .logo-text-footer {
 	font-size: 40px;
 	font-weight: 800;
 }
@@ -109,8 +109,58 @@ h4 {
 
 --------------------------------
  */
-footer {}
+footer {
+	display: flex;
+	flex-direction: column;
+}
 
+.container-footer {
+	background: #1D1160;
+	height: 467px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 10px 40px 10px 40px;
+}
+.nav-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.logo-text-footer {
+	margin-bottom: 43px;
+}
+.link-nav-container-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.link-nav-footer, .link-nav-container-footer li {
+	font-size: 32px;
+	font-weight: 400;
+	margin-bottom: 43px;
+}
+
+.container-copyright {
+	background: #33006F;
+	height: 38px;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.container-copyright p {
+	text-align: center;
+	font-size: 0.8em;
+}
 
 
 /* 
