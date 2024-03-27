@@ -97,6 +97,9 @@ h4 {
 	text-align: center;
 	margin: 0;
 }
+.btn-aprender-title-black {
+	background-color: #080315;
+}
 
 
 
@@ -149,9 +152,13 @@ h4 {
 }*/
 .section-mountains-2 {
 	background-image: url("../img/mountains_2.svg");
+	height: 295px;
+	width: 100%;
 }
 .section-mountains-3 {
 	background-image: url("../img/mountains_3.svg");
+	height: 259px;
+	width: 100%;
 }
 
 /*
@@ -171,6 +178,8 @@ h4 {
 	align-items: center;
 
 	font-weight:bold;
+
+	padding: 20px 20px 20px 20px;
 }
 .metodo-itens {
 	display: flex;
@@ -182,13 +191,44 @@ h4 {
 	text-align: center;
 	font-size: 24px;
 }
+/* ----------------------- */
 .container-metodos-aprendizado {
 	background: rgb(36,0,70);
 	background: linear-gradient(180deg, rgba(36,0,70,1) 0%, rgba(114,14,158,1) 100%);
-}
-.container-metodos-aprendizado {
+
 	width: 100%;
 	height: 625px;
+}
+
+/* ------------------------ */
+.container-metodos-cultura {
+	background: rgb(29,17,96);
+	background: linear-gradient(180deg, rgba(29,17,96,1) 0%, rgba(8,3,21,1) 100%);
+
+	width: 100%;
+	height: 647px;
+}
+
+/* ------------------------ */
+.container-metodos-idiomas {
+	background: rgb(16,1,44);
+	background: linear-gradient(180deg, rgba(16,1,44,1) 0%, rgba(90,24,154,1) 100%);
+
+	width: 100%;
+	height: 647px;
+}
+
+/* ------------------------ */
+.container-final-button {
+	background: #10002B;
+	
+	width: 100%;
+	height: 408px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 /*
